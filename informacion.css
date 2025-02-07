@@ -1,0 +1,173 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Header */
+.header {
+    background-color: #3E9722;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul li {
+    margin-left: 20px;
+}
+
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav ul li a:hover {
+    color: #e58c24;
+}
+
+/* Hero Section */
+.hero {
+    background: url('hero-image-info.jpg') no-repeat center center/cover;
+    color: white;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero-text h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    font-size: 1.2em;
+}
+
+/* Modalidades de Estudio */
+.details {
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+.details h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.details-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.detail-item {
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+}
+
+.detail-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.detail-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.detail-item p {
+    font-size: 1em;
+    color: #666;
+}
+
+/* Requisitos */
+.requirements {
+    padding: 40px 0;
+    background-color: #f4f4f4;
+}
+
+.requirements h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.requirements ul {
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.requirements ul li {
+    background: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 1em;
+}
+
+/* Contacto */
+.contact {
+    padding: 40px 0;
+    background-color: #3E9722;
+    color: white;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.contact a {
+    color: #e58c24;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+    background-color: #3E9722;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}

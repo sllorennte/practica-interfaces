@@ -1,0 +1,161 @@
+/* General */
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Encabezado */
+.header {
+    background-color: #3E9722;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul li {
+    margin-left: 20px;
+}
+
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav ul li a:hover {
+    color: #e58c24;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+    background: url('hero-image.jpg') no-repeat center center;
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    z-index: 2;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    z-index: 2;
+}
+
+.hero .btn {
+    background-color: #e58c24;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+    z-index: 2;
+}
+
+.hero .btn:hover {
+    background-color: #3E9722;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+/* Cursos */
+.courses {
+    padding: 20px 0; /* Ajusta el espacio superior si es necesario */
+    background-color: #fff;
+}
+
+.courses h3 {
+    text-align: center;
+    font-size: 2em;
+    margin: 0; /* Elimina márgenes adicionales */
+    padding-top: 10px; /* Opcional para ajustar el espacio */
+}
+
+.courses-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.course-card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.course-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.course-card h4 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.course-card p {
+    font-size: 1em;
+    margin-bottom: 15px;
+    color: #666;
+}
+
+.course-card .btn {
+    background-color: #3E9722;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.course-card .btn:hover {
+    background-color: #e58c24;
+}

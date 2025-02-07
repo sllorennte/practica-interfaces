@@ -1,0 +1,173 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Header */
+.header {
+    background-color: #3E9722;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul li {
+    margin-left: 20px;
+}
+
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav ul li a:hover {
+    color: #e58c24;
+}
+
+/* Hero Section */
+.help-hero {
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 40px 20px;
+}
+
+.help-hero .hero-image {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.help-hero h2 {
+    font-size: 2.5em;
+    color: #3E9722;
+    margin-top: 20px;
+}
+
+/* FAQs Section */
+.faqs {
+    padding: 40px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.faqs h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #3E9722;
+}
+
+.faq-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.faq-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 250px;
+    text-align: center;
+}
+
+.faq-item img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.faq-item p {
+    margin: 10px 0;
+    font-size: 1em;
+    color: #666;
+}
+
+.faq-item a {
+    color: #3E9722;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.faq-item a:hover {
+    color: #e58c24;
+}
+
+/* Contact Section */
+.contact-us {
+    padding: 40px 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.contact-us h3 {
+    font-size: 2em;
+    color: #3E9722;
+    margin-bottom: 20px;
+}
+
+.contact-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.contact-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 250px;
+    text-align: center;
+}
+
+.contact-item img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.contact-item a {
+    color: #3E9722;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-item a:hover {
+    color: #e58c24;
+}
+
+/* Footer */
+.footer {
+    background-color: #3E9722;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
